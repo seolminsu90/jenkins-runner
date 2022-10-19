@@ -1,0 +1,8 @@
+h2:
+  console:
+    enabled: true
+
+jenkins:
+  url: { { JENKINS_URL } }
+  receiver: { { THIS IS JOB PARAM } }
+  auth-token: { { TOKEN_INFO } }
